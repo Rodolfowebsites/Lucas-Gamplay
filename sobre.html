@@ -1,0 +1,79 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Lucas Venom-Gameplay</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./estilo.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+        window.addEventListener('DOMContentLoaded', () => {
+         VANTA.BIRDS({
+           el: "#vanta",
+           mouseControls: true,
+           mouseControls: true,
+           touchControls: true,
+           gyroControls: true,
+           minHeight: 200.00,
+           minWidth: 200.00,
+           scale: 1.00,
+           scaleMobile: 1.00,
+           backgroundColor: 0x70764,
+           birdSize: 1.70,
+           wingSpan: 20.00,
+           separation: 50.00,
+           alignment: 76.00,
+           cohesion: 16.00,
+           quantity: 2.00,
+           backgroundAlpha: 0.00 
+            
+           
+           
+
+<!--DOMExceptionescrever cada sessão-->
+          })
+        })
+        setTimeout(() => {
+          const main = document.querySelector('main')
+          main.style.opacity = 1
+          main.style.filter = 'blur(0px)'
+        }, 1000)
+        </script>
+    </head>
+    <body>
+        <div id="vanta"></div>
+        <main>
+        <header>
+            <img src="./images/Lucas Sério (Personalizado).jpeg" />
+            <h1>Lucas GamePlay</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://www.rodolfowebsites.com">
+                    <img src="./images/Lucas Sério.jpeg" alt="Site oficial" width="30" />
+                    Official Website
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCfZ28cxi-HouHZ0V9hqmBiQ">
+                    <img src="./images/Youtube.svg" alt="Youtube" width="30" />
+                    Youtube
+                </a>
+                
+            </li>
+            <li>
+                <a href="https://www.tiktok.com">
+                    <img src="./images/TikTok.png" alt="TikTok" width="20" />
+                    TikTok
+                </a>
+            </li>
+            <li>
+                <a href="https://www.whatsapp.com">
+                    <img src="./images/Wpp.svg" alt="Wpp" width="30" />
+                    Whatsapp
+                </a>
+            </li>
+        </ul>
+    </body>
+</html>

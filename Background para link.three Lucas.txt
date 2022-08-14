@@ -1,0 +1,8 @@
+Fazer no Afeter effects animação do chamber para poder colocar como background para o link.three de Lucas.
+Animar a arma dele fazendo um vídeo com o personagem entrando de lado (Esqueda para direita) 
+Efeito de brilho e piscando luzes
+Arma mexendo (cima e baixo)
+Fundo com um vídeo de highlights do Valorant
+Som com musica legal e sons de efeitos de tiros e falas do personagem [Tudo isso acontecendo no fundo com um efeito de paralax]
+Colocar a opção de ligar o som do vídeo ou deixar desativado.
+Vídeo em loop.
